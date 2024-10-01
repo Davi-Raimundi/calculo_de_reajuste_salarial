@@ -1,0 +1,15 @@
+# Cálculo de Reajuste Salarial
+
+Este é um programa que calcula o novo salário de um funcionário com base em seu código de cargo e salário atual. É uma aplicação simples que demonstra a interação com o usuário e o uso de condicionais.
+
+## Funcionalidades
+
+- Permite ao usuário inserir seu nome, código de cargo e salário atual.
+- Calcula o reajuste baseado no código de cargo informado.
+- Exibe o nome, salário atual, percentual de reajuste e o novo salário.
+
+## Como Usar
+
+1. Clone o repositório:
+   bash
+   git clone https://github.com/seu_usuario/seu_repositorio.git
