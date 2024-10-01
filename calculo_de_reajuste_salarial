@@ -1,0 +1,17 @@
+Cálculo de Reajuste Salarial
+
+Este projeto consiste em um programa que calcula o novo salário de um funcionário com base em seu código de cargo e salário atual. O usuário informa seu nome, código de cargo e salário, e o programa aplica um reajuste conforme a tabela definida.
+
+Funcionalidades:
+
+O usuário insere seu nome, código de cargo e salário atual.
+O programa calcula o reajuste com base no código de cargo.
+Exibe o nome do funcionário, salário atual, percentual de reajuste e o novo salário.Cálculo de Reajuste Salarial
+
+Este projeto consiste em um programa que calcula o novo salário de um funcionário com base em seu código de cargo e salário atual. O usuário informa seu nome, código de cargo e salário, e o programa aplica um reajuste conforme a tabela definida.
+
+Funcionalidades:
+
+O usuário insere seu nome, código de cargo e salário atual.
+O programa calcula o reajuste com base no código de cargo.
+Exibe o nome do funcionário, salário atual, percentual de reajuste e o novo salário.
