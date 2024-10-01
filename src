@@ -1,0 +1,50 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia funcionario
+		real salario_atual,salario_novo,aumento_salario=0.0
+		inteiro reajuste=0,cod_cargo
+
+		escreva("\n Qual seu nome : ")
+		leia(funcionario)
+
+		escreva("\n Informe seu código : ")
+		leia(cod_cargo)
+
+		escreva("\n Informe seu sálario : ")
+		leia(salario_atual)
+
+		limpa()
+
+		se(cod_cargo == 101)
+		{
+			reajuste=10
+			aumento_salario=salario_atual*0.1
+		}
+		se(cod_cargo == 102)
+		{
+			reajuste=20
+			aumento_salario=salario_atual*0.2
+		}
+		se(cod_cargo == 103)
+		{
+			reajuste=30
+			aumento_salario=salario_atual*0.3
+		}
+		senao
+		se((cod_cargo != 101) e (cod_cargo != 102) e (cod_cargo != 103))
+		{
+			reajuste=40
+			aumento_salario=salario_atual*0.4
+		}
+		
+		salario_novo=salario_atual+aumento_salario
+
+		escreva("\n Nome: ",funcionario)
+		escreva("\n Salario atual: ",salario_atual)
+		escreva("\n Reajauste: ",reajuste," %")
+		escreva("\n Salário líquido: ",salario_novo)
+	}
+}
